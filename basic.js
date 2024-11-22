@@ -304,3 +304,88 @@
 // }
 
 // ------------------------------------------------------------
+// how to get length in array => throw the .length
+
+// loop in js 
+// 1.  for simple
+// 2.  for in
+// 3.  for of
+// 4.  for eatch
+// 2. for in this is give the index value ;
+
+// var name=[1,2,3,4,5,6,76,3];
+// for(let element in name)
+// {
+//     console.log(element);
+// }
+
+// 3. for of this is give the value in js
+
+// var nema=[1,2,3,4,5,6];
+// for(let element of nema)
+// {
+//     console.log(element);
+// }
+
+// 4. for eatch loop
+// Array.prototype.forEach()
+// call a function for each element in the array
+
+// var name=[1,2,3,4,5,65,6,7,77,2];
+// name.forEach(function (element , index , array)
+// {
+//     console.log(element + " index " +index +"    : "+ array);
+// });
+
+// this is arrow function in foreach loop
+
+// var name=[1,2,3,4,5,65,6,7,77,2];
+// name.forEach((element , index , array) =>
+// {
+//     console.log(element+" " + index + "     : "+ array);
+//  });
+// ----------------------------------------------
+// indexof 
+// ----------------------------------------------
+// var name=[1,2,3,4,5,65,6,7,77,2];
+
+
+// if (name.includes(5)) {
+//     console.log("Index of 5:", name.indexOf(5));  // Output: 4
+//   } else {
+//     console.log("5 is not in the array.");
+//   }
+
+// ----------------------------------------------
+// splice
+// ----------------------------------------------
+// var name=[1,2,3,4,5,65,6,7,
+// 77,2];
+// name.splice(3, 2, 10, 20, 30);
+// console.log(name);
+// ----------------------------------------------
+// 
+// new method push()
+// const name=['komal' , 'grima' , 'ankit' , 'manish'];
+// console.log(name);
+// name.push('komal');
+// console.log(name);
+
+// unshift method 
+// const name =['komal', 'grima' , 'manish'];
+// console.log(name);
+// name.unshift('sanker');
+// console.log(name);
+
+//------------------------------------------------------------------
+// pop this is new  method 
+// it's work like a delet in array 
+
+// var name=['string', 'new', 's;d' , 'sdklf 4'];
+// console.log(name.pop());
+
+// ---------------------------------------------------------
+// shift this is new method
+// it's also work like curd operation in java script and also it's insert in array 
+
+var name=['lol' , 'kol' , 'mol' , ' ']
