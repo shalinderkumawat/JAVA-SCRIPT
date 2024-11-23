@@ -388,4 +388,88 @@
 // shift this is new method
 // it's also work like curd operation in java script and also it's insert in array 
 
-var name=['lol' , 'kol' , 'mol' , ' ']
+// var name=['lol' , 'kol' , 'mol' , ' ']
+
+// const month=['jan' , 'feb', 'mar' , 'apr'];
+// const index=month.indexOf('jan');
+
+// if(index != -1)
+// {
+//     const update= month.splice(index , 10 , 'jan');
+//     console.log(update);
+//     console.log(month);
+// }
+// else {
+//     console.log('not found');
+// }
+
+
+// ----------------------------------------------------------
+// Array.prototype.map()
+//  array MAP method in js 
+// returns element for newArray , after executing somthing 
+// }[, thisArg];
+
+// Return a new array containing the results of calling a and it's not a change your orignal array  
+// function on every elementy in this array 
+
+// this is first use this map
+// and it's return a new array 
+
+
+// const a = [1,4,9,16,25]
+
+// let newr =  a.map((curElem , index , arr) =>{
+//     return curElem != 9;
+// })
+
+// console.log(newr);
+
+// -----
+// this is second use this map 
+// -----
+// const a = [1,4,9,16,25]
+
+// let newr =  a.map((number , index , arr) =>{
+//     return `this is number ${number} and the index is ${index}`;
+// })
+
+// console.log(newr);
+
+// Q1. find the square root of each element in an array?
+// Q2. multiply each element by 2 return only an array element which are grater than 10?
+
+// ans .1 
+// let a=[1,2,3,4,5,6];
+// debugger;
+// let ans = a.map((num) => {
+//     return Math.sqrt(num);
+// });
+// console.log(ans);
+
+// ans .2
+// let a=[1,2,3,4,5,6];
+// debugger;
+// let ans = a.map((anss) => {
+//     return anss *2;
+// }).filter((anss) => {
+//     return anss >10;
+// }
+// );
+// console.log(ans);
+
+// --------------------------------------------------------
+// Reduce method in js 
+// flatten an array means to convert the 3rd or 2ed array into a 
+// single dimentaional array
+
+// The reduce() methpod executes a reduce function (that you provide )
+// on each element of the array , resulting in single output value. 
+
+// the reduce function takes four arguments;
+
+// Accumulator 
+// Current Value 
+// Current Index 
+// Source Array
+
