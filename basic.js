@@ -473,3 +473,103 @@
 // Current Index 
 // Source Array
 
+// const b
+// let arr = [5,4,2];
+// let sum = arr.reduce((accumulator , curElem ,  index , arr) => {
+//     console.log(accumulator);
+//     b=accumulator;
+//     return accumulator = accumulator + accumulator;
+
+    
+// })
+// console.log(b);
+
+// console.log(sum);
+
+// nn bb ss u 
+// data types in js 
+//  primitive data type in js
+// let a =null;
+// let b=3;
+// let c=-12;
+// let d=true;
+// let e="hello";
+// let f=3.14;  
+
+// let a=prompt("Enter your stranth :");
+// switch(a){
+//     case 1:
+//         console.log(`your stranth is ` , a);
+//         break;
+//     case 2:
+//         console.log(`your stranth is `, a);
+//         break;
+//     case 3 :
+//         console.log(`your stranh is ` , a);
+//         break;
+//     default :
+//     console.log(`your stranth is ` , a);
+//     break;
+        
+        
+            
+// }
+// this is object in js
+// let a={
+//     harray : 20, 
+//     kumawat: 30,
+//     shailendra: 40,
+//     name: "shailendra"
+// }
+// console.log(a +"this is vary is : "+ a.shailendra);
+// console.log("this is simple value ");
+// console.log("this is for in loop");
+
+// for(let  b in a)
+// {
+//     console.log(b);
+    
+// }
+// // this is for of loop
+// for(let c of "shailendra" )
+// {
+//     console.log(c);
+    
+// }
+/* 
+let obj = {
+    name : "shailendra",
+    age : 20, 
+    gender : "mail",
+    address : "delhi"
+}
+
+// this is simple for loop 
+
+for(i=0;i<Object.keys(obj).length;i++)
+{
+    console.log("MY SELF : "+ Object.keys(obj)[i]+" "+obj[Object.keys(obj)[i]])
+} 
+
+// and this is for in loop 
+
+for(let i in obj)
+{
+    console.log(i);
+    
+}
+    */
+
+// let password = "12345@kumar"
+
+// let i
+
+// while(i!=password)
+// {
+//     i=prompt("Enter Your password : ");
+// }
+// console.log("you have enter a correct number ");
+
+// what is string interpolation in js 
+// ans => the string interpolation is typeof string and it is moern string part in this use back tick throw the back tic user can able to exies to the variable this is the most use case in js 
+    
