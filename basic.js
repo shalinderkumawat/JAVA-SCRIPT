@@ -573,3 +573,101 @@ for(let i in obj)
 // what is string interpolation in js 
 // ans => the string interpolation is typeof string and it is moern string part in this use back tick throw the back tic user can able to exies to the variable this is the most use case in js 
     
+
+// for(let a=1;a<=10;a++)
+// {
+//     // 2
+//     console.log(a);
+    
+// }
+
+
+// function a (){
+//     console.log("hello");
+//     console.log("this is my simple function");
+    
+// }
+
+// a();
+
+// const ab = () =>{
+//     console.log("hello");
+//     console.log("this is my new function ");
+    
+// }
+
+
+
+// const a="12345678\n";
+// console.log(a.length);
+// a.toUpperCase();
+// console.log("this is my UpperCase vlaue you can see ha ha ha ha ha ha  ha h hah hah h aha ha h haah  haah h ah hhah a ha hah a ha")
+// console.log(a);
+// console.log("This is lowercse value")
+// console.log(a.toLowerCase(a))
+// const b="         this is my String"
+// console.log(b.slice(2, 4));
+// console.log(b + `This is my orignal string you can see and after theat this is my trime string`);
+// console.log(b.trim());
+// const n="manish"
+// for(let i=0;i<n.length;i++)
+// {
+//     console.log(n[i]+" ")
+
+// }
+
+// i was work with string and in this string i was do like how to show the stirng and change the lowercasr to upercase and use the ternary operator
+
+// const string="this is start"
+// console.log(string.startsWith("this")?"yes this is right":"not this is not right this is not trught")
+
+// console.log(string.toLowerCase()?string.toUpperCase():string.toLowerCase())
+
+// let strin1="the amount is RS 100"
+
+// let amount = strin1.slice("the amount is    ".length)
+// console.log(amount);
+// console.log(Number.parseInt(amount))
+
+// let a = [1,2,3,4,45,5,6]
+// console.log(a);
+
+//  let a =[1,2,3,4,5,6,7];
+// //  this is join method it's work like if you want a value return and print whit the array a index value os you can use this join method 
+//  console.log(a.join( " NUMBER ")) 
+// // this is pop method IDBTransaction's work removing the value into a array 
+//  console.log(a.pop())
+//  console.log(a)
+//  console.log(a.pop())
+//  console.log(a)
+
+// //  this is push method this is not a return a new array it is insert a same value and same array
+//  console.log(a.push("poss"))
+//  console.log(a)
+
+// this is shift method it's work remove the starting element in this array
+// console.log(a.shift())
+// console.log(a);
+
+// this is delee keyword it's work like remove the element in this array and it's work a indexing 
+// console.log(a.length)
+// delete a[0];
+// console.log(a.length);
+// this is concat 
+// let b=a.concat(a);
+// console.log(b);
+
+// let a =[ "a", 1,90,3,4,5,"salkdf"]
+// // console.log(a.sort());
+// console.log(a.reverse())
+//   console.log(a.splice(2 , 1 , "hi" , "Shailendra", "this"))
+//   console.log(a);
+
+
+// how to runthe for each loop in this java script 
+
+const a=[13,4,5,6,6,7,8,2];
+a.forEach((element) => {
+    console.log(element)
+})
+    
