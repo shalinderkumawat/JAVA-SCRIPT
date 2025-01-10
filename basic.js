@@ -666,8 +666,62 @@ for(let i in obj)
 
 // how to runthe for each loop in this java script 
 
-const a=[13,4,5,6,6,7,8,2];
-a.forEach((element) => {
-    console.log(element)
-})
+// const a=[13,4,5,6,6,7,8,2];
+// a.forEach((element) => {
+//     console.log(element)
+// })
     
+
+// const a=[1,2]
+
+// do{
+//   const  aa=prompt("Enter the number of a value ")
+//     aa=Number.parseInt(aa)
+//     a.push(aa)
+// }
+// while(a!=0)
+
+// const swap = ( a, temp , i)=>{
+//         if(a[i]>=temp[i+1])
+//         {
+//             console.log(number + a[i] 
+//         }
+// }
+//  let a =[1,2,3,4,5,6,6,5,4,3,2,112]
+//  for(let i =0; a.length;i++ )
+//  {
+
+//  }
+// console.log();
+// obj = {1: "number1" , 2: "number2" , 3: "number3" , 4: "number4"}
+// // this is print the table forme it's is method consolew class 
+// console.table(obj)
+// console.warn("this is not a valide value")
+
+// console.time(obj)
+// console.timeEnd(obj)
+
+// let runAgo = true;
+// const canDrive = (age) =>{
+//     return age>=18?true:false;
+// }
+// while(runAgo)
+// {
+//   let age =  prompt("Enter your age");
+//   if(canDrive(age))
+//   {
+//     alert("You can drive the car");
+//   }
+//   else 
+//   {
+//     alert("You can't the car sorry");
+//   }
+//   runAgo = prompt("You want ago run this function ")?true:false;
+    
+// }
+// let value=true;
+// while(value){
+// let background = prompt("Enter the color name " );
+// document.body.style.background = background
+// value  = prompt("want the change the background color");
+// }
